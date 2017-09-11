@@ -55,6 +55,12 @@ void loop() {
     FastLED.show();
     delay(pause);
   }
+
+  // Wer nur den Regenbogen, nur Blinken oder nur eine Farbe haben möchte, kann den Code entsprechen anpassen.
+  /*
+   So können größere Teile des Codes auskommentiert werden
+   */
+  
   // Zur Info:
   //      Farbe,  Sättigung, Helligkeit
   //CHSV( color,  255,       0);
